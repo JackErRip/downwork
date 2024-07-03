@@ -1,9 +1,11 @@
 import React from 'react';
 
+
 function Section3() {
     return (
-        <div className='grid place-items-center  bottom-96'>
-            <div className='bg-neutral-700 rounded-lg flex flex-col md:flex-row relative  '>
+        <div className='grid place-items-center order-3'>
+            <div className='bg-neutral-700 rounded-lg flex flex-col md:flex-row  '>
+                
                 <h1 className='px-10 py-6 text-zinc-50 font-extrabold text-4xl'>
                     From small projects to complex initiatives, we can help <br /> <br />
                     <p className='text-3xl font-medium'>
@@ -31,9 +33,11 @@ function Section3() {
                     you deliver complex projects.
                     </p>
                 </h1>
+                
                 <br />
                 <br />
             </div>
+            
         </div>
     ); 
 }
