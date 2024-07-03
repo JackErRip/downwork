@@ -2,7 +2,7 @@ import React from 'react';
 
 function Section2() {
   return (
-    <div className='bg-neutral-950 p-4'>
+    <div className='bg-neutral-900 p-4'>
       <div className='flex flex-col'>
         <h1 className='text-4xl font-extrabold text-start text-zinc-50 py-4'>
           How it works

@@ -2,7 +2,7 @@ import React from 'react';
 
 function Section1() {
   return (
-    <div className="flex flex-col md:flex-row bg-neutral-950 min-h-screen">
+    <div className="flex flex-col md:flex-row bg-neutral-900 min-h-screen">
       <div className='md:w-1/2 md:pr-8'>
         <h1 className='text-zinc-50 font-extrabold text-left text-3xl md:text-5xl mb-4 md:mb-8'>
           Bring the top 1% of Upwork talent to your business, your way

@@ -8,17 +8,17 @@ import Section4 from './components/sections/Section4';
 import Section6 from './components/sections/Section6';
 import Section5 from './components/sections/Section5';
 import Section7 from './components/sections/Section7';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <div className="min-h-screen bg-neutral-950">
+    <div className="min-h-screen bg-neutral-900">
       <div>
-        <h1 className='px-36 text-blue-500 font-extrabold text-5xl transform translate-y-6 '>
-          downwork
-        </h1>
+        <Navbar />
       </div>
-      <hr className='relative translate-y-14 ' />
-      <div className='bg-neutral-950 px-36 py-24'>
+      
+      <div className='bg-neutral-900 px-36 py-24'>    
+        <br />
         <Section1 />
         <TrustedBy />
         
